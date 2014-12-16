@@ -1,4 +1,4 @@
-//xs modify comment 1216 15:08
+//shuang: my comment
 var require = {
     baseUrl: "/assets/scripts",
     paths: {
