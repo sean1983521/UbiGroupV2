@@ -1,4 +1,4 @@
-//shuang: my comment
+/// <reference path="interfaces/lib/requirejs/require.d.ts" />
 var require = {
     baseUrl: "/assets/scripts",
     paths: {
