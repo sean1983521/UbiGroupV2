@@ -141,6 +141,7 @@ define(["exports", "Globals", "modules/game-cover/game-cover", "modules/secondar
         _handlePagination = function _handlePagination(e) {
 
             if (!_delayNav){
+
                 SecondaryNav.SecondaryNav.closeNav();
 
                 if (e.currentTarget.id === 'heroNext') {
