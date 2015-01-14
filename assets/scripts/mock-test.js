@@ -28,7 +28,6 @@ define(["jquery", "jQuery.mockjax"], function($, tbd) {
 			gameNews1            : '/en-US/event/data.aspx?id=2716&news=1',
 			gameNews2            : '/en-US/event/data.aspx?id=2716&news=2',
 			gameNews3            : '/en-US/event/data.aspx?id=2716&news=3',
-            press                : '/en-US/press/data.aspx?studio=shanghai',
 			privacyPol           : '/en-US/Info/Info.aspx?tagname=PrivacyPolicy',
 			TOS		             : '/en-US/Info/Info.aspx?tagname=TermsOfUse',
 			legalInfo	         : '/en-US/Info/Info.aspx?tagname=LegalInfo',
@@ -577,12 +576,6 @@ define(["jquery", "jQuery.mockjax"], function($, tbd) {
     $.mockjax({
         url: settings.urls.faq,
         proxy: '/assets/dummy-data/faq.html',
-        logging: settings.logging
-    });
-
-    $.mockjax({
-        url: settings.urls.press,
-        proxy: '/assets/dummy-data/press-contacts-sample.html',
         logging: settings.logging
     });
 
