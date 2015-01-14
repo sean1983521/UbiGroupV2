@@ -7737,16 +7737,65 @@ ul.related-nav.active, ul.related-nav.hovering {
   padding-bottom: 20px;
 }
 /* line 540, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal a {
+  color: #3e61ad;
+}
+/* line 543, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal h2 {
+  color: #3e61ad;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  font-weight: normal;
+}
+/* line 550, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal h3 {
+  color: #3e61ad;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  font-weight: bold;
+}
+/* line 557, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal h4 {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+/* line 561, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal hr {
+  background-color: #d4d3d3;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+/* line 566, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal p {
+  color: #454545;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+  list-style: disc;
+  margin-left: 1em;
+}
+/* line 573, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal p.support {
+  margin-left: 0;
+}
+/* line 580, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements .centered-content {
   margin: 0;
   padding-bottom: 10px;
 }
-/* line 544, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 584, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements ul {
   margin-bottom: 3%;
   overflow: hidden;
 }
-/* line 548, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 588, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements li {
   display: block;
   font-size: 11px;
@@ -7756,18 +7805,18 @@ ul.related-nav.active, ul.related-nav.hovering {
   padding: 1em 0;
   width: 90%;
 }
-/* line 556, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 596, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements li:last-child {
   border: none;
 }
-/* line 559, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 599, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements strong {
   float: left;
   font-weight: bold;
   height: 100%;
   width: 100%;
 }
-/* line 565, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 605, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements p {
   height: 100%;
   float: left;
@@ -7775,16 +7824,16 @@ ul.related-nav.active, ul.related-nav.hovering {
   overflow: hidden;
   width: 70%;
 }
-/* line 572, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 612, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements p.title {
   width: 30%;
 }
-/* line 576, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 616, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements li p.padding,
 .modal-content-wrap .system-requirements li p.recommended {
   display: none;
 }
-/* line 579, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 619, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements li.header {
   background: #eeeeee;
   margin: 0;
@@ -7794,16 +7843,16 @@ ul.related-nav.active, ul.related-nav.hovering {
   font-weight: bold;
   width: 100%;
 }
-/* line 587, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 627, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements li.header strong {
   width: 3%;
 }
-/* line 592, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 632, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article hgroup {
   margin: 0 auto 1.4em;
   width: 72%;
 }
-/* line 596, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 636, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article h2 {
   background: none;
   color: #c61a16;
@@ -7819,7 +7868,7 @@ ul.related-nav.active, ul.related-nav.hovering {
   text-transform: none;
   width: 100%;
 }
-/* line 609, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 649, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article h3 {
   color: #454545;
   font-size: 11px;
@@ -7830,7 +7879,7 @@ ul.related-nav.active, ul.related-nav.hovering {
   text-align: center;
   text-transform: none;
 }
-/* line 617, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 657, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article strong {
   color: #454545;
   display: block;
@@ -7841,19 +7890,19 @@ ul.related-nav.active, ul.related-nav.hovering {
   font-weight: bold;
   padding-bottom: 20px;
 }
-/* line 625, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 665, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article .article {
   margin: 0 auto;
 }
-/* line 628, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 668, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article .article:nth-of-type(1) {
   margin-top: 15px;
 }
-/* line 631, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 671, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article .article:nth-of-type(1) figure:first-child {
   padding-top: 0;
 }
-/* line 636, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 676, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article .game-video {
   height: 0;
   margin: 20px 0;
@@ -7861,7 +7910,7 @@ ul.related-nav.active, ul.related-nav.hovering {
   position: relative;
   width: 90%;
 }
-/* line 642, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 682, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article .game-video iframe {
   left: -6.2%;
   height: 100%;
@@ -7871,17 +7920,17 @@ ul.related-nav.active, ul.related-nav.hovering {
   height: 100%;
   top: 0;
 }
-/* line 652, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 692, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article figure {
   padding: 2em 0;
   width: 100%;
 }
-/* line 656, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 696, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article figure img {
   display: block;
   margin: 0 auto;
 }
-/* line 660, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 700, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article p {
   font-size: 11px;
   font-size: 1.1rem;
@@ -7889,46 +7938,46 @@ ul.related-nav.active, ul.related-nav.hovering {
   line-height: 1.4rem;
   margin-left: 0;
 }
-/* line 665, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 705, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .game-article .social-sharing {
   border-top: 1px lightgrey solid;
   position: relative;
   padding: 30px 0;
   margin-top: 26px;
 }
-/* line 675, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 715, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .invalid,
 .modal-content-wrap .game-age-gate .invalid {
   border: 1px solid red;
   color: #f00;
 }
-/* line 679, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 719, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .denied-access,
 .modal-content-wrap .game-age-gate .denied-access {
   display: none;
 }
-/* line 681, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 721, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .denied-access h1,
 .modal-content-wrap .game-age-gate .denied-access h1 {
   margin: 1em 0;
 }
-/* line 684, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 724, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .denied-access .circle-btn-large,
 .modal-content-wrap .game-age-gate .denied-access .circle-btn-large {
   font-size: 13px;
   font-size: 1.3rem;
 }
-/* line 687, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 727, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .denied-access .go-button,
 .modal-content-wrap .game-age-gate .denied-access .go-button {
   margin-top: 63px;
 }
-/* line 692, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 732, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection + .close,
 .modal-content-wrap .game-age-gate + .close {
   display: block;
 }
-/* line 697, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 737, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection h2,
 .modal-content-wrap .game-age-gate h2 {
   color: #fff;
@@ -7943,12 +7992,12 @@ ul.related-nav.active, ul.related-nav.hovering {
   height: auto;
   margin-bottom: 20px;
 }
-/* line 709, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 749, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection h2.white,
 .modal-content-wrap .game-age-gate h2.white {
   color: #fff;
 }
-/* line 712, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 752, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection h2.border-2,
 .modal-content-wrap .game-age-gate h2.border-2 {
   background-position: 50% 0, 50% 100%;
@@ -7957,12 +8006,12 @@ ul.related-nav.active, ul.related-nav.hovering {
   padding: 8px 0;
   text-align: center;
 }
-/* line 719, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 759, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection h2.border-2.white,
 .modal-content-wrap .game-age-gate h2.border-2.white {
   background-image: url(/assets/images/header-border-white.png), url(/assets/images/header-border-white.png);
 }
-/* line 723, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 763, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection h1,
 .modal-content-wrap .game-age-gate h1 {
   background: none;
@@ -7977,21 +8026,21 @@ ul.related-nav.active, ul.related-nav.hovering {
   letter-spacing: .5rem;
   margin-bottom: 17px;
 }
-/* line 734, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 774, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection form,
 .modal-content-wrap .game-age-gate form {
   position: relative;
   text-align: center;
   width: 100%;
 }
-/* line 739, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 779, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection input,
 .modal-content-wrap .game-age-gate input {
   display: inline-block;
   margin: 0 5px;
   width: 86px;
 }
-/* line 744, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 784, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection input[type="submit"],
 .modal-content-wrap .game-age-gate input[type="submit"] {
   height: 0;
@@ -7999,19 +8048,19 @@ ul.related-nav.active, ul.related-nav.hovering {
   visibility: hidden;
   width: 0;
 }
-/* line 750, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 790, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection select,
 .modal-content-wrap .game-age-gate select {
   display: none;
 }
-/* line 753, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 793, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .go-button,
 .modal-content-wrap .game-age-gate .go-button {
   text-align: center;
   margin-top: 30px;
   width: 100%;
 }
-/* line 759, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 799, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .back-top {
   font-size: 13px;
   font-size: 1.3rem;
@@ -8025,11 +8074,11 @@ ul.related-nav.active, ul.related-nav.hovering {
   text-decoration: none;
   width: auto;
 }
-/* line 770, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 810, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .back-top:hover {
   color: #454545;
 }
-/* line 774, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 814, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .back-top .icon-arrow-up {
   color: #454545;
   left: -10px;
@@ -8037,7 +8086,7 @@ ul.related-nav.active, ul.related-nav.hovering {
   position: relative;
   top: 7px;
 }
-/* line 783, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 823, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection p {
   font-size: 15px;
   font-size: 1.5rem;
@@ -8047,52 +8096,52 @@ ul.related-nav.active, ul.related-nav.hovering {
   position: relative;
   text-align: center;
 }
-/* line 791, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 831, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .locale-redirection .mask-inner {
   top: 5px;
 }
-/* line 795, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 835, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .mask-inner {
   top: 0;
 }
 
-/* line 800, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 840, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-page-circle-inner {
   padding: 0;
 }
-/* line 804, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 844, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-page-circle-inner .modal-container {
   height: 100%;
 }
-/* line 808, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 848, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-page-circle-inner .modal-content-wrap {
   height: 100%;
   padding: 0;
 }
-/* line 813, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 853, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-page-circle-inner .modal-content-wrap > div {
   background: #000;
   height: 100%;
   padding-top: 100px;
 }
-/* line 821, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 861, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-page-circle-inner .centered-content {
   margin: 0;
 }
-/* line 826, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 866, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-page-circle-inner .close,
 .modal-page-circle-inner .icon-close {
   display: none;
 }
 
-/* line 834, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 874, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .no-touch .modal-content-wrap [class*="icon-"] {
   -webkit-transition: opacity 250ms ease;
   -moz-transition: opacity 250ms ease;
   -o-transition: opacity 250ms ease;
   transition: opacity 250ms ease;
 }
-/* line 838, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+/* line 878, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .no-touch .modal-content-wrap [class*="icon-"]:hover {
   opacity: 1;
 }
