@@ -823,12 +823,48 @@ define(["require", "exports", "jquery", "modules/modal/modal"], function(require
 
             var newSource;
 
-            if (imgEl.attr('data-src-desktop')) {
+            /*if (imgEl.attr('data-src-desktop')) {
                 newSource = imgEl.attr('data-src-desktop');
             } else if (imgEl.attr('data-src-tablet')) {
                 newSource = imgEl.attr('data-src-tablet');
             } else {
                 newSource = imgEl.attr('data-src-mobile');
+            }*/
+
+            if (Helpers.isWidescreen()) {
+
+                if (imgEl.attr('data-src-widescreen')) {
+                    newSource = imgEl.attr('data-src-widescreen');
+                } else if (imgEl.attr('data-src-desktop')) {
+                    newSource = imgEl.attr('data-src-desktop');
+                } else if (imgEl.attr('data-src-tablet')) {
+                    newSource = imgEl.attr('data-src-tablet');
+                } else {
+                    newSource = imgEl.attr('data-src-mobile');
+                }
+
+            } else if (Helpers.isDesktop()) {
+
+                if (imgEl.attr('data-src-desktop')) {
+                    newSource = imgEl.attr('data-src-desktop');
+                } else if (imgEl.attr('data-src-tablet')) {
+                    newSource = imgEl.attr('data-src-tablet');
+                } else {
+                    newSource = imgEl.attr('data-src-mobile');
+                }
+
+            } else if (Helpers.isTablet()) {
+
+                if (imgEl.attr('data-src-tablet')) {
+                    newSource = imgEl.attr('data-src-tablet');
+                } else {
+                    newSource = imgEl.attr('data-src-mobile');
+                }
+
+            } else {
+
+                newSource = imgEl.attr('data-src-mobile');
+
             }
 
             return newSource;
