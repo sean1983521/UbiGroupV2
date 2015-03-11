@@ -2518,6 +2518,298 @@ body:after {
   padding-top: 0 !important;
 }
 
+/* line 950, ../../../workspace/styles/globals/_globals-base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 954, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section {
+  margin-top: 52px;
+  background-color: #E2E3E4;
+}
+/* line 959, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container {
+  width: 100%;
+}
+/* line 962, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases {
+  width: 100%;
+  background-color: #3e61ad;
+  padding: 6px 12px;
+}
+/* line 967, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases h3.title {
+  font-style: normal;
+  color: #ffffff;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+/* line 974, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases select, section.press-section .press-container #filter-press-releases input {
+  display: inline;
+  width: 100%;
+  border: 0;
+}
+/* line 980, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases select {
+  padding: 6px;
+}
+/* line 984, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases form {
+  margin-bottom: 20px;
+}
+/* line 987, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases form .filter-form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 993, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases label {
+  display: inline-block;
+  color: #ffffff;
+  padding-right: 10px;
+  padding-bottom: 6px;
+}
+/* line 1008, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases #press-filter-button {
+  margin-top: 20px;
+  padding: 6px;
+  background-color: #ffffff;
+  color: #3e61ad;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+/* line 1021, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding: 6px;
+}
+/* line 1027, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles h3.title {
+  font-style: normal;
+  font-size: 22px;
+  font-size: 2.2rem;
+  color: white;
+  padding: 14px 6px;
+  margin-bottom: 8px;
+  background-color: #3e61ad;
+}
+/* line 1036, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list {
+  margin-bottom: 20px;
+}
+/* line 1039, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li {
+  padding: 18px 4px;
+  border-bottom: 1px solid #E2E3E4;
+}
+/* line 1043, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li:last-child {
+  border-bottom: 0;
+}
+/* line 1047, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .date {
+  color: #ccc;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "adobe-caslon-pro", "Georgia", serif;
+  font-style: italic;
+}
+/* line 1053, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .title {
+  color: #3e61ad;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+/* line 1059, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .title a {
+  color: #3e61ad;
+}
+/* line 1063, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .desc {
+  color: #454545;
+}
+/* line 1065, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .desc a {
+  color: #454545;
+}
+/* line 1072, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination {
+  margin: 10px 0 20px;
+  text-align: center;
+  color: #3e61ad;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 20px;
+  font-size: 2rem;
+}
+/* line 1079, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li {
+  display: inline-block;
+}
+/* line 1082, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li.current-page {
+  background-color: #3e61ad;
+}
+/* line 1084, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li.current-page a {
+  color: #ffffff;
+}
+/* line 1088, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li a {
+  display: inline-block;
+  padding: 4px;
+  color: #3e61ad;
+}
+/* line 1093, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li a:hover {
+  color: #ACBFE8;
+}
+/* line 1101, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article {
+  overflow: hidden;
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding: 6px;
+}
+/* line 1108, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article h3.title {
+  font-style: normal;
+  font-size: 22px;
+  font-size: 2.2rem;
+  color: white;
+  padding: 14px 6px;
+  margin-bottom: 20px;
+  background-color: #3e61ad;
+}
+/* line 1117, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container {
+  padding: 0 6px;
+}
+/* line 1119, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container a {
+  color: #3e61ad;
+  text-decoration: underline;
+}
+/* line 1123, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .press-button {
+  display: inline-block;
+  margin-right: 4px;
+}
+/* line 1127, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .press-button:last-child {
+  margin-right: 0;
+}
+/* line 1131, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .press-button a {
+  display: inline-block;
+  padding: 8px 10px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  background-color: #3e61ad;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 1143, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions {
+  margin-bottom: 20px;
+}
+/* line 1145, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .left-group {
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 1149, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .right-group {
+  float: right;
+  margin-bottom: 10px;
+}
+/* line 1153, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .social-buttons {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+}
+/* line 1158, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .social-buttons a.social-button {
+  font-size: 30px;
+  font-size: 3rem;
+  color: #3e61ad;
+  text-decoration: none;
+}
+/* line 1165, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .main-image {
+  float: left;
+  padding: 0 2% 2% 0;
+  max-width: 33.3%;
+}
+/* line 1170, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .location-date {
+  color: #ccc;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "adobe-caslon-pro", "Georgia", serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+/* line 1177, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .title h2 {
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 26px;
+  font-size: 2.6rem;
+  color: #3e61ad;
+  margin-bottom: 8px;
+}
+/* line 1185, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container strong {
+  font-weight: bold;
+}
+/* line 1188, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container p {
+  margin-bottom: 10px;
+  line-height: 10px;
+  line-height: 1.0rem;
+}
+/* line 1193, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .genericRichTextBox {
+  margin-bottom: 60px;
+}
+/* line 1196, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .genericLegalLineBox {
+  background-color: #F7F7F7;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+/* line 1201, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .detailAboutUbisoft {
+  font-family: Verdana, "Helvetica", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+/* line 1204, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .detailAboutUbisoft p {
+  line-height: 18px;
+  line-height: 1.8rem;
+}
+/* line 1209, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .footer-buttons {
+  text-align: right;
+  margin: 10px 0;
+}
+
 /* line 1, ../../../workspace/styles/templates/announcement/_announcement-screen-base.scss */
 .announcement-screen {
   background: #000;
